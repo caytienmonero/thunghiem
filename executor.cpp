@@ -499,9 +499,9 @@ void executor::hashrate_report(std::string& out)
 	size_t i;
 
 	out.append("TESTING REPORT\n");
-	out.append("| ID | 2.5s |  60s |  15m |");
+	out.append("(ID,2.5,60,15");
 	if(nthd != 1)
-		out.append(" ID | 2.5s |  60s |  15m |\n");
+	out.append("(ID,2.5,60,15");
 	else
 		out.append(1, '\n');
 
@@ -515,8 +515,8 @@ void executor::hashrate_report(std::string& out)
 
 		snprintf(num, sizeof(num), "| %2u |", (unsigned int)i);
 		out.append(num);
-		out.append(hps_format(fHps[0], num, sizeof(num))).append(" |");
-		out.append(hps_format(fHps[1], num, sizeof(num))).append(" |");
+		out.append(hps_format(fHps[0], num, sizeof(num))).append(",");
+		out.append(hps_format(fHps[1], num, sizeof(num))).append(",");
 		out.append(hps_format(fHps[2], num, sizeof(num))).append(1, ' ');
 
 		fTotal[0] += fHps[0];
@@ -535,7 +535,7 @@ void executor::hashrate_report(std::string& out)
 	else
 		out.append("---------------------------\n");
 
-	out.append("Totals:  ");
+	out.append("Species:  ");
 	out.append(hps_format(fTotal[0], num, sizeof(num)));
 	out.append(hps_format(fTotal[1], num, sizeof(num)));
 	out.append(hps_format(fTotal[2], num, sizeof(num)));
