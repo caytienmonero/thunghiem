@@ -142,9 +142,7 @@ int main(int argc, char *argv[])
 #endif
 
 	printer::inst()->print_str("-------------------------------------------------------------------\n");
-	printer::inst()->print_str( XMR_STAK_NAME" " XMR_STAK_VERSION " mining software, CPU Version.\n");
-	printer::inst()->print_str("Based on CPU mining code by wolf9466 (heavily optimized by fireice_uk).\n");
-	printer::inst()->print_str("Brought to you by fireice_uk and psychocrypt under GPLv3.\n\n");
+	printer::inst()->print_str( XMR_STAK_NAME" " XMR_STAK_VERSION "  software, CPU Version.\n");
 	char buffer[64];
 	snprintf(buffer, sizeof(buffer), "Configurable dev donation level is set to %.1f %%\n\n", fDevDonationLevel * 100.0);
 	printer::inst()->print_str(buffer);

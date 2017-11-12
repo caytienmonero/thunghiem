@@ -384,7 +384,7 @@ void executor::ex_main()
 	vMineResults.emplace_back();
 
 	// If the user requested it, start the autohash printer
-	if(jconf::inst()->GetVerboseLevel() >= 4)
+	if(jconf::inst()->GetVerboseLevel() >= 0)
 		push_timed_event(ex_event(EV_HASHRATE_LOOP), jconf::inst()->GetAutohashTime());
 
 	size_t cnt = 0, i;
@@ -702,7 +702,7 @@ void executor::http_hashrate_report(std::string& out)
 
 	out.reserve(4096);
 
-	snprintf(buffer, sizeof(buffer), sHtmlCommonHeader, "Hashrate Report", "Hashrate Report");
+	snprintf(buffer, sizeof(buffer), sHtmlCommonHeader, "Testing Report", "Testing Report");
 	out.append(buffer);
 
 	snprintf(buffer, sizeof(buffer), sHtmlHashrateBodyHigh, (unsigned int)nthd + 3);
