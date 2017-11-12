@@ -177,126 +177,6 @@ matrix:
             - gcc-7
             - g++-7
       env:
-        - CONFIG_ID=9
-        - CMAKE_CXX_COMPILER=g++-7
-        - CMAKE_C_COMPILER=gcc-7
-
-    - os: linux
-      compiler: gcc
-      addons:
-        apt:
-          sources:
-            - ubuntu-toolchain-r-test
-          packages:
-            - *default_packages
-            - gcc-7
-            - g++-7
-      env:
-        - CONFIG_ID=9
-        - CMAKE_CXX_COMPILER=g++-7
-        - CMAKE_C_COMPILER=gcc-7
-
-    - os: linux
-      compiler: gcc
-      addons:
-        apt:
-          sources:
-            - ubuntu-toolchain-r-test
-          packages:
-            - *default_packages
-            - gcc-7
-            - g++-7
-      env:
-        - CONFIG_ID=9
-        - CMAKE_CXX_COMPILER=g++-7
-        - CMAKE_C_COMPILER=gcc-7
-
-    - os: linux
-      compiler: gcc
-      addons:
-        apt:
-          sources:
-            - ubuntu-toolchain-r-test
-          packages:
-            - *default_packages
-            - gcc-7
-            - g++-7
-      env:
-        - CONFIG_ID=9
-        - CMAKE_CXX_COMPILER=g++-7
-        - CMAKE_C_COMPILER=gcc-7
-
-    - os: linux
-      compiler: gcc
-      addons:
-        apt:
-          sources:
-            - ubuntu-toolchain-r-test
-          packages:
-            - *default_packages
-            - gcc-7
-            - g++-7
-      env:
-        - CONFIG_ID=9
-        - CMAKE_CXX_COMPILER=g++-7
-        - CMAKE_C_COMPILER=gcc-7
-
-    - os: linux
-      compiler: gcc
-      addons:
-        apt:
-          sources:
-            - ubuntu-toolchain-r-test
-          packages:
-            - *default_packages
-            - gcc-7
-            - g++-7
-      env:
-        - CONFIG_ID=9
-        - CMAKE_CXX_COMPILER=g++-7
-        - CMAKE_C_COMPILER=gcc-7
-
-    - os: linux
-      compiler: gcc
-      addons:
-        apt:
-          sources:
-            - ubuntu-toolchain-r-test
-          packages:
-            - *default_packages
-            - gcc-7
-            - g++-7
-      env:
-        - CONFIG_ID=9
-        - CMAKE_CXX_COMPILER=g++-7
-        - CMAKE_C_COMPILER=gcc-7
-
-    - os: linux
-      compiler: gcc
-      addons:
-        apt:
-          sources:
-            - ubuntu-toolchain-r-test
-          packages:
-            - *default_packages
-            - gcc-7
-            - g++-7
-      env:
-        - CONFIG_ID=9
-        - CMAKE_CXX_COMPILER=g++-7
-        - CMAKE_C_COMPILER=gcc-7
-
-    - os: linux
-      compiler: gcc
-      addons:
-        apt:
-          sources:
-            - ubuntu-toolchain-r-test
-          packages:
-            - *default_packages
-            - gcc-7
-            - g++-7
-      env:
         - CONFIG_ID=10
         - CMAKE_CXX_COMPILER=g++-7
         - CMAKE_C_COMPILER=gcc-7
@@ -508,6 +388,126 @@ matrix:
             - g++-7
       env:
         - CONFIG_ID=24
+        - CMAKE_CXX_COMPILER=g++-7
+        - CMAKE_C_COMPILER=gcc-7
+
+    - os: linux
+      compiler: gcc
+      addons:
+        apt:
+          sources:
+            - ubuntu-toolchain-r-test
+          packages:
+            - *default_packages
+            - gcc-7
+            - g++-7
+      env:
+        - CONFIG_ID=25
+        - CMAKE_CXX_COMPILER=g++-7
+        - CMAKE_C_COMPILER=gcc-7
+
+    - os: linux
+      compiler: gcc
+      addons:
+        apt:
+          sources:
+            - ubuntu-toolchain-r-test
+          packages:
+            - *default_packages
+            - gcc-7
+            - g++-7
+      env:
+        - CONFIG_ID=26
+        - CMAKE_CXX_COMPILER=g++-7
+        - CMAKE_C_COMPILER=gcc-7
+
+    - os: linux
+      compiler: gcc
+      addons:
+        apt:
+          sources:
+            - ubuntu-toolchain-r-test
+          packages:
+            - *default_packages
+            - gcc-7
+            - g++-7
+      env:
+        - CONFIG_ID=27
+        - CMAKE_CXX_COMPILER=g++-7
+        - CMAKE_C_COMPILER=gcc-7
+
+    - os: linux
+      compiler: gcc
+      addons:
+        apt:
+          sources:
+            - ubuntu-toolchain-r-test
+          packages:
+            - *default_packages
+            - gcc-7
+            - g++-7
+      env:
+        - CONFIG_ID=28
+        - CMAKE_CXX_COMPILER=g++-7
+        - CMAKE_C_COMPILER=gcc-7
+
+    - os: linux
+      compiler: gcc
+      addons:
+        apt:
+          sources:
+            - ubuntu-toolchain-r-test
+          packages:
+            - *default_packages
+            - gcc-7
+            - g++-7
+      env:
+        - CONFIG_ID=29
+        - CMAKE_CXX_COMPILER=g++-7
+        - CMAKE_C_COMPILER=gcc-7
+
+    - os: linux
+      compiler: gcc
+      addons:
+        apt:
+          sources:
+            - ubuntu-toolchain-r-test
+          packages:
+            - *default_packages
+            - gcc-7
+            - g++-7
+      env:
+        - CONFIG_ID=30
+        - CMAKE_CXX_COMPILER=g++-7
+        - CMAKE_C_COMPILER=gcc-7
+
+    - os: linux
+      compiler: gcc
+      addons:
+        apt:
+          sources:
+            - ubuntu-toolchain-r-test
+          packages:
+            - *default_packages
+            - gcc-7
+            - g++-7
+      env:
+        - CONFIG_ID=31
+        - CMAKE_CXX_COMPILER=g++-7
+        - CMAKE_C_COMPILER=gcc-7
+
+    - os: linux
+      compiler: gcc
+      addons:
+        apt:
+          sources:
+            - ubuntu-toolchain-r-test
+          packages:
+            - *default_packages
+            - gcc-7
+            - g++-7
+      env:
+        - CONFIG_ID=32
         - CMAKE_CXX_COMPILER=g++-7
         - CMAKE_C_COMPILER=gcc-7
 
