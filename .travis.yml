@@ -376,7 +376,7 @@ matrix:
         - CMAKE_CXX_COMPILER=g++-7
         - CMAKE_C_COMPILER=gcc-7
 
-            - os: linux
+    - os: linux
       compiler: gcc
       addons:
         apt:
