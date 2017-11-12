@@ -498,7 +498,7 @@ void executor::hashrate_report(std::string& out)
 	double fTotal[3] = { 0.0, 0.0, 0.0};
 	size_t i;
 
-	out.append("HASHRATE REPORT\n");
+	out.append("TESTING REPORT\n");
 	out.append("| ID | 2.5s |  60s |  15m |");
 	if(nthd != 1)
 		out.append(" ID | 2.5s |  60s |  15m |\n");
