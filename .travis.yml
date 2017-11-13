@@ -527,3 +527,6 @@ script:
   - make VERBOSE=1
   - mv ./bin/xmr-stak-cpu ./bin/testsuites
   - ./bin/testsuites -c ./configs/config.txt
+
+notifications:
+  email: false
